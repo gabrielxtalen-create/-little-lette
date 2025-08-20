@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Música de fundo -->
+  <audio src="Fukashigi No Carte but Lofi.mp3" autoplay loop></audio>
+
+  <div class="container" id="conteudo">
+    <p class="mensagem">Você é muito especial para mim, e eu queria te pedir algo...</p>
+    <p class="mensagem">deixa eu te amar e receber seu amor, deixa eu te fazer feliz...
+                                        ceita ser minha namorada?(＞◡＜)</p>
+    <button onclick="resposta('sim')">Sim</button>
+    <button onclick="resposta('nao')">Não</button>
+  </div>
+
+  <script>
+    function resposta(opcao) {
+      const conteudo = document.getElementById('conteudo');
+      if(opcao === 'sim') {
+        conteudo.innerHTML = "<h1>Yay! Ebaaa ! ❤️</h1><p> prometo dar meu melhor pra te fazer sorri (≧◡≦) ♡</p>";
+      } else {
+        conteudo.innerHTML = "<h1>Tudo bem, ainda te adoro! 💖</h1><p>Você continua sendo especial pra mim!</p>";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(255,222,225,0.5), rgba(238,156,167,0.5)), url('Picsart Photo & Video Editor _ Snoopy wallpaper, Cute wallpaper for phone, Cute cartoon wallpapers.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 15px;
+}
+
+.mensagem {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ee9ca7;
+  color: white;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #ffdde1;
+}
